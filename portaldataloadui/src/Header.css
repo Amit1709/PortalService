@@ -1,0 +1,22 @@
+.header {
+    background-color: khaki;
+    padding: 10px;
+    text-align: center;
+}
+
+    .header a {
+        color: black;
+        margin: 0 15px;
+        padding: 8px 16px; /* Add padding to align with the background color */
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+    .header .active {
+        background-color: #007bff; /* Unique background color for active link */
+        color: #fff;
+    }

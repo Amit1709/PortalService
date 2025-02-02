@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLoadService", "DataLoadService\DataLoadService.csproj", "{484A26D6-723D-46AB-BD56-2D54F2D575F1}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "portaldataloadui", "PortalDataLoadUI\portaldataloadui.esproj", "{F4001A63-7D70-4140-B6E3-D9ED190FE84E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{484A26D6-723D-46AB-BD56-2D54F2D575F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{484A26D6-723D-46AB-BD56-2D54F2D575F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{484A26D6-723D-46AB-BD56-2D54F2D575F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4001A63-7D70-4140-B6E3-D9ED190FE84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4001A63-7D70-4140-B6E3-D9ED190FE84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4001A63-7D70-4140-B6E3-D9ED190FE84E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F4001A63-7D70-4140-B6E3-D9ED190FE84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4001A63-7D70-4140-B6E3-D9ED190FE84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4001A63-7D70-4140-B6E3-D9ED190FE84E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
