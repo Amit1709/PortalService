@@ -1,0 +1,57 @@
+body {
+    background-color: #1e1e1e;
+}
+
+/* Shared styles for both forms */
+form {
+    margin: 20px;
+    max-width: 600px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: floralwhite;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    background-color: antiquewhite;
+    color: black;
+    border: 1px solid #444444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+    color:orangered;
+}
+
+/* Specific styles for CategoryForm */
+.category-form {
+}
+
+/* Specific styles for SubCategoryForm */
+.sub-category-form {
+    width: 200%; /* Ensures the width is 200% for sub-category form inputs */
+}
