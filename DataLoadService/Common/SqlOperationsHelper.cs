@@ -25,7 +25,7 @@ internal class SqlOperationsHelper
                 sqlCmd.Connection = connection;
                 sqlCmd.ExecuteNonQuery();
             }
-            return new StatusCodeResult(StatusCodes.Status201Created);
+            return new StatusCodeResult(StatusCodes.Status200OK);
         }
         catch (Exception e)
         {
