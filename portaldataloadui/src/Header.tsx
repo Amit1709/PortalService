@@ -17,6 +17,7 @@ const Header: React.FC = () => {
                 <NavLink to="/add-sub-category" className={activeLink === '/add-sub-category' ? 'active' : ''}>Add Sub-Category</NavLink>
                 <NavLink to="/additional-details" className={activeLink === '/additional-details' ? 'active' : ''}>Additional Details</NavLink>
                 <NavLink to="/add-reference-data" className={activeLink === '/add-reference-data' ? 'active' : ''}>Add Reference Data</NavLink>
+                <NavLink to="/complete-sub-category" className={activeLink === '/complete-sub-category' ? 'active' : ''}>Add Sub Category Details</NavLink>
             </nav>
         </header>
     );

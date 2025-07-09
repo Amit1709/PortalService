@@ -4,6 +4,7 @@ import AddCategory from './Components/AddCategory';
 import SubCategoryForm from './Components/SubCategoryForm';
 import AdditionalDetailsForm from './Components/AdditionalDetails';
 import AddReferenceDataForm from './Components/AddReferenceData';
+import CompleteSubCategoryForm from './Components/CompleteSubCategoryForm';
 import Header from './Header';  // Import the Header component from outside the Components folder
 
 const App: React.FC = () => {
@@ -17,6 +18,7 @@ const App: React.FC = () => {
                     <Route path="/add-sub-category" element={<SubCategoryForm />} />
                     <Route path="/additional-details" element={<AdditionalDetailsForm />} />
                     <Route path="/add-reference-data" element={<AddReferenceDataForm />} />
+                    <Route path="/complete-sub-category" element={<CompleteSubCategoryForm />} />
                 </Routes>
             </div>
         </Router>
